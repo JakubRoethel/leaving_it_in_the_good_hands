@@ -1,0 +1,21 @@
+.decoration-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    p {
+        font-family: $font-base;
+        font-size: 38px;
+        color: $color-gray-text;
+        word-wrap: inherit;
+        text-align: center;
+        width: 500px;
+    }
+
+    .img-decoration {
+        width: 250px;
+        height: 30px;
+        margin-top: 10px;
+        background: url(../../assets/Decoration.svg);
+        background-position: center;
+    }
+}

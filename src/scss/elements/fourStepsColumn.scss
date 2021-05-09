@@ -1,0 +1,31 @@
+.step-column {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    width: 130px;
+    height: 175px;
+    img {
+        height: 83px;
+        width: 83px;
+    }
+    h2{
+        font-size: 18px;
+        font-family: $font-base;
+        font-weight: 400;
+        color: $color-gray-text
+    }
+    .dash {
+        border-bottom: 1px solid #707070;
+        width: 70px;
+    }
+    p {
+        width:150px;
+        color: $color-gray-text;
+        font-size: 16px;
+        font-family: $font-base;
+        font-weight: 400;
+    }
+
+}

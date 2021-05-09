@@ -1,0 +1,32 @@
+.one-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex: 1 1;
+    flex-direction: column;
+    .description-wrapper{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+        h1,h4 {
+            font-size: 90px;
+            font-family: $font-base;
+            font-weight: 400;
+            color: $color-brown-numbers;
+            margin: 0;
+        }
+        h4 {
+            font-size: 18px;
+            color: $color-gray-text;
+        }
+        p {
+            font-family: $font-alt;
+            font-size: 16px;
+            font-weight: 300;
+            color: $color-gray-text;
+        }
+}
