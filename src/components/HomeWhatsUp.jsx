@@ -2,11 +2,6 @@ import React from 'react';
 import WhatsUpColumn from './WhatsUpColumn';
 
 function HomeWhatsUp() {
-    // const [columnDescription,setColumnDescription]= useState({
-    //     numbers:0,
-    //     title: "",
-    //     description: ""
-    // })
     const content = "Lorem ipsum dolor sit amet, consectetur adipisc Pellentesque vel enim a elit viverra elementuma. Aliquam erat volutpat."
 
 

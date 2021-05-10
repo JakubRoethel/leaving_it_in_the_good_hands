@@ -20,8 +20,8 @@ export default function HomeHeader() {
             <DecorationTitle title={'Zacznij pomagać ! Oddaj niechciane rzeczy w zaufane ręce'}/>
         </div>
         <div className="btn-container">
-            <BigButtons btnText={"Oddaj Rzeczy"}/>
-            <BigButtons btnText={"Zorganizuj Zbiórkę"}/>
+            <BigButtons btnText={"Oddaj Rzeczy"} btnDirection = {"/logowanie"}/>
+            <BigButtons btnText={"Zorganizuj Zbiórkę"} btnDirection = {"/logowanie"}/>
         </div>
     </>
     )

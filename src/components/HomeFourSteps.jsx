@@ -7,7 +7,7 @@ import icon2 from '../assets/Icon-2.svg';
 import icon3 from '../assets/Icon-3.svg';
 import icon4 from '../assets/Icon-4.svg';
 
-function FourSteps() {
+function HomeFourSteps() {
     return (
         <>
             <DecorationTitle className="a" title={"Wystarczą 4 proste kroki"}/>
@@ -18,10 +18,10 @@ function FourSteps() {
                 <FourStepsColumn icon={icon4} title={"Zamów kuriera"} content={"kurier przyjedzie w dogodnym terminie"}/>
             </div>
             <div className="btn-container">
-                <BigButtons btnText= {"Oddaj rzeczy"}/>
+                <BigButtons btnText= {"Oddaj rzeczy"} btnDirection={"/logowanie"}/>
             </div>
         </>
     )
 }
 
-export default FourSteps
+export default HomeFourSteps

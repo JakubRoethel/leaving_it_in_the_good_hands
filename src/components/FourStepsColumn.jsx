@@ -9,6 +9,6 @@ function FourStepsColumn({icon,title,content}) {
             <p>{content}</p>
         </div>
     )
-}
+};
 
-export default FourStepsColumn
+export default FourStepsColumn;

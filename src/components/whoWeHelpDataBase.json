@@ -1,0 +1,47 @@
+[
+    {
+        "name": "Fundacja “Dbam o zdrowie”",
+        "mission": "Cel i misja: Pomoc osobom znajdującym się w trudnej sytuacji życiowej.",
+        "description":"ubrania, jedzenie, sprzęt AGD, meble, zabawki"
+    },
+    {
+        "name": "Fundacja “Dla dzieci”",
+        "mission": "Cel i misja: Pomoc dzieciom z ubogich rodzin.",
+        "description":"ubrania, meble, zabawki"
+    },
+    {
+        "name": "Fundacja “Bez domu”",
+        "mission": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+        "description":"ubrania, jedzenie, ciepłe koce"
+    },
+    {
+        "name": "Organizacja “Lorem Ipsum 1”",
+        "mission": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+        "description":"ubrania, jedzenie, ciepłe koce"
+    },
+    {
+        "name": "Organizacja “Lorem Ipsum 2”",
+        "mission": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+        "description":"ubrania, jedzenie, ciepłe koce"
+    },
+    {
+        "name": "Organizacja “Lorem Ipsum 3”",
+        "mission": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+        "description":"ubrania, jedzenie, ciepłe koce"
+    },
+    {
+        "name": "Zbiórka “Lorem Ipsum 1”",
+        "mission": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+        "description":"ubrania, jedzenie, ciepłe koce"
+    },
+    {
+        "name": "Zbiórka “Lorem Ipsum 2”",
+        "mission": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+        "description":"ubrania, jedzenie, ciepłe koce"
+    },
+    {
+        "name": "Zbiórka “Lorem Ipsum 3”",
+        "mission": "Cel i misja: Pomoc dla osób nie posiadających miejsca zamieszkania.",
+        "description":"ubrania, jedzenie, ciepłe koce"
+    }
+]

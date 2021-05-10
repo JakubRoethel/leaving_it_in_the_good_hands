@@ -17,14 +17,14 @@ export default function HomeHeaderNav() {
                 O co chodzi ?
             </Link>
             <Link className= "nav-link about-as-link"
-            to="aboutAs"
+            to="about-as"
             smooth={true}
             duration={1000}>
                 O nas
             </Link>
             <Link
-            className= "nav-link foundation-link"
-            to="foundation"
+            className= "nav-link who-we-help-link"
+            to="who-we-help"
             smooth={true}
             duration={1000}>
                 Fundacja i organizacje

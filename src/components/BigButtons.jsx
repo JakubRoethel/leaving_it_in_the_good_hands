@@ -1,10 +1,11 @@
-import React from 'react'
+import React from 'react';
+import {Link} from 'react-router-dom';
 
-function BigButtons({btnText}) {
+function BigButtons({btnText,btnDirection}) {
     return (
-        <button className="big-btn"> 
+        <Link className="big-btn" to={btnDirection}> 
             {btnText}
-        </button>
+        </Link>
     )
 }
 

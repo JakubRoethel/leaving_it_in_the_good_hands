@@ -1,6 +1,5 @@
 .big-btn{
     border: 0.75px solid $color-gray-text;
-    background-color:white;
     height: 120px;
     width: 310px;
     margin-left: 44px;
@@ -9,4 +8,10 @@
     font-weight: 300;
     cursor: pointer;
     text-transform: uppercase;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: $color-gray-text;
 }
