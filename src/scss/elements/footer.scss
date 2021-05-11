@@ -1,0 +1,26 @@
+.footer-container {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    .footer-description-container{
+        flex: 7;
+        font-family: $font-alt;
+        font-size: 18px;
+        font-weight: 600;
+        color: $color-gray-text;
+        text-align: right;
+        display: flex;
+        justify-content: space-around;
+    }
+    .social-media-container {
+        flex: 1;
+        display: flex;
+        justify-content: flex-end;
+        .facebook-ico {
+            margin-right: 20px;
+        }
+        .instagram-ico {
+            margin-right: 50px;
+        }
+    }
+}

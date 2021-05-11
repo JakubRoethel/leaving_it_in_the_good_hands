@@ -3,7 +3,8 @@ import HomeFourSteps from './HomeFourSteps';
 import HomeHeader from './HomeHeader';
 import HomeWhatsUp from './HomeWhatsUp';
 import HomeAboutAs from './HomeAboutAs';
-import HomeWhoWeHelp from './HomeWhoWeHelp'
+import HomeWhoWeHelp from './HomeWhoWeHelp';
+import HomeContact from './HomeContact';
 
 function Home() {
 
@@ -27,8 +28,10 @@ function Home() {
             <section className="who-we-help" id="who-we-help">
                 <HomeWhoWeHelp/>
             </section>
+            <section className="contact" id ="contact">
+                <HomeContact/>
+            </section>
         </div>
-
     )
 };
 

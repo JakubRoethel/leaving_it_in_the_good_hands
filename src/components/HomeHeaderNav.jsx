@@ -19,21 +19,21 @@ export default function HomeHeaderNav() {
             <Link className= "nav-link about-as-link"
             to="about-as"
             smooth={true}
-            duration={1000}>
+            duration={1500}>
                 O nas
             </Link>
             <Link
             className= "nav-link who-we-help-link"
             to="who-we-help"
             smooth={true}
-            duration={1000}>
+            duration={2000}>
                 Fundacja i organizacje
             </Link>
             <Link
             className= "nav-link contact-link"
             to="contact"
             smooth={true}
-            duration={1000}>
+            duration={2000}>
                 Kontakt
             </Link>
         </nav>

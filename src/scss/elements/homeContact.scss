@@ -1,0 +1,83 @@
+.contact-img {
+    flex: 2;
+    background: url(../../assets/Background-Contact-Form.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contact-img::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    background: hsla(0,0%,100%,.863);
+    display: inline-block;
+}
+
+.contact-container {
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    .contact-form{
+        margin-top: 100px;
+        .name-email-container {
+            display: flex;
+        }
+    }
+}
+
+.name, .email, .text-area-container {
+    display: flex;
+    flex-direction: column;
+    margin-right: 16px;
+    width: 250px;
+    height: 62px;
+    .label-name, .label-email, .label-textarea {
+        font-size: 16px;
+        font-family: $font-base;
+        font-weight: 600;
+        text-align: left;
+        margin-bottom: 12px;
+    }
+    .input-name, .input-email, .textarea  {
+        border-style: hidden hidden groove;
+        border-bottom: 1px solid $color-gray-log;
+        outline: none;
+        font-family: $font-base;
+        font-weight: 400;
+        color: $color-gray-text
+    }
+    .input-name::placeholder, .input-email::placeholder, .textarea::placeholder {
+        color: #3C3C3C26;
+    }
+}
+
+.text-area-container {
+    width: 530px;
+    height: 100px;
+    margin-top: 45px;
+    .textarea {
+        resize: none;
+        height: 100px;
+    }
+}
+
+.btn-submit-container {
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 16px;
+    margin-top: 40px;
+    .btn-submit {
+        width: 150px;
+        height: 50px;
+        border: 0.75px solid $color-gray-text;
+        background-color: white;
+        font-size: 18px;
+        font-family: $font-base;
+        font-weight: 300;
+        color: black;
+        cursor: pointer;
+    }
+}
+
