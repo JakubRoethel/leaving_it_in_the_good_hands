@@ -2,26 +2,65 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-.btn-div-container{
-    display: flex;
-    width: 50%;
-    justify-content: space-around;
-    align-items: center;
-    margin-top: 50px;
-    .btn {
-        height: 80px;
-        width: 210px;
-        font-size: 24px;
-        font-weight: 400;
-        color: $color-gray-text;
-        text-align: center;
+    .btn-div-container{
         display: flex;
+        width: 50%;
+        justify-content: space-around;
         align-items: center;
-        justify-content: center;
-        cursor:pointer;
+        margin-top: 50px;
+        .btn {
+            height: 80px;
+            width: 210px;
+            font-size: 24px;
+            font-weight: 400;
+            color: $color-gray-text;
+            text-align: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            cursor:pointer;
+        }
+        .btn:focus{
+            border: 0.75px solid $color-gray-text
+        }
     }
-    .btn:focus{
-        border: 0.75px solid $color-gray-text
+    .organizations-container {
+        width: 60%;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        .main-description {
+            text-align: center;
+            font-family: $font-base;
+            font-size: 22px;
+            font-weight: 300px;
+            width: 60%;
+        }
+    }
+    table {
+        margin-top: 34px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 81px;
+        border-bottom: 1px solid #707070;;
+        th {
+            color: $color-gray-text;
+            font-family: $font-alt;
+            font-weight: 300;
+            font-size: 26px;
+        }
+        tr {
+            display: flex;
+            justify-content: space-between;
+            td {
+                color: $color-gray-text;
+                font-family: $font-alt;
+                font-weight: 300;
+                font-size: 18px;
+            }
+        }
     }
 }
