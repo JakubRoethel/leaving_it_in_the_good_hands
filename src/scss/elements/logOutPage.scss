@@ -1,0 +1,18 @@
+.logOut-wrapper{
+    margin-top: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 250px;
+    .link-home-page{
+        text-decoration: none;
+        margin-top: 35px;
+        font-size: 18px;
+        font-family: $font-base;
+        font-weight: lighter;
+        border: 0.75px solid $color-gray-text;
+        padding: 13px 17px 13px 17px;
+        color: #000000;
+    }
+}

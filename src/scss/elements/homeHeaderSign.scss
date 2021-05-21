@@ -1,4 +1,4 @@
-.link {
+.link, .title {
     font-family: $font-base;
     text-decoration: none;
     color: $color-gray-log;
@@ -10,4 +10,16 @@
 }
 .sign-up {
     border: 0.75px solid $color-yellow-background;
+}
+
+.get-back {
+    border: 0.75px solid $color-yellow-background;
+    color: #000000;
+    font-size: 13px;
+    font-family: $font-base;
+}
+.title {
+    font-family: $font-base;
+    font-size: 14px;
+    color: #000000;
 }

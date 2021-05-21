@@ -1,14 +1,12 @@
 import React from 'react';
 import {Link} from 'react-scroll';
+import HomeHeaderNavStart from './HomeHeaderNavStart';
+
 
 export default function HomeHeaderNav() {
     return (
         <nav className="nav">
-            <Link
-            className= "nav-link start"
-            to="/">
-                Start
-            </Link>
+            <HomeHeaderNavStart/>
             <Link
             className= "nav-link whats-up-link"
             to="whats-up"
