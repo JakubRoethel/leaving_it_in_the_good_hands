@@ -7,20 +7,34 @@ import {Link} from 'react-router-dom';
 function LogOutPage() {
     return (
         <>
-            <div className="login-header-box">
-                <div className="sign-links">
+            <div
+                className="login-header-box"
+            >
+                <div
+                    className="sign-links"
+                >
                     <HomeHeaderSign/>
                 </div>
-                <div className="nav-list">
+                <div
+                    className="nav-list"
+                >
                     <HomeHeaderNav/>
                 </div>
             </div>
-            <div className="logOut-wrapper">
-                <DecorationTitle title={"Wylogowaie nastąpiło pomyślnie !"}/>
-                <Link className="link-home-page" to="/">Strona główna</Link>
+            <div
+                className="logOut-wrapper"
+            >
+                <DecorationTitle
+                title={"Wylogowaie nastąpiło pomyślnie !"}
+                />
+                <Link
+                    className="link-home-page"
+                    to="/"
+                >
+                    Strona główna
+                </Link>
             </div>
         </>
     )
-}
-
+};
 export default LogOutPage

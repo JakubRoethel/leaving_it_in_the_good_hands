@@ -1,9 +1,13 @@
-import React from 'react'
+import React from 'react';
 
 function WhatsUpColumn({number,title,content}) {
     return (
-        <div className="one-column">
-            <div className="description-wrapper">
+        <div
+            className="one-column"
+        >
+            <div
+                className="description-wrapper"
+            >
                 <h1>{number}</h1>
                 <h4>{title}</h4>
                 <p>{content}</p>
@@ -11,5 +15,4 @@ function WhatsUpColumn({number,title,content}) {
         </div>
     )
 }
-
-export default WhatsUpColumn
+export default WhatsUpColumn;

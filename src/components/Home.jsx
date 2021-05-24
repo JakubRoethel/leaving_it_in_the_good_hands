@@ -7,30 +7,16 @@ import HomeWhoWeHelp from './HomeWhoWeHelp';
 import HomeContact from './HomeContact';
 
 function Home() {
-
     return (
-        <div className="content-wrapper">
-            <section className="start-section" >
-                    <div className="img-container"></div>
-                    <header className="header">
-                        <HomeHeader/>
-                    </header>
-            </section>
-            <section className="whats-up" id="whats-up">
-                <HomeWhatsUp/>
-            </section>
-            <section className="four-steps">
-                <HomeFourSteps/>
-            </section>
-            <section className="about-as" id="about-as">
-                <HomeAboutAs/>
-            </section>
-            <section className="who-we-help" id="who-we-help">
-                <HomeWhoWeHelp/>
-            </section>
-            <section className="contact" id ="contact">
-                <HomeContact/>
-            </section>
+        <div
+            className="content-wrapper"
+        >
+            <HomeHeader/>
+            <HomeWhatsUp/>
+            <HomeFourSteps/>
+            <HomeAboutAs/>
+            <HomeWhoWeHelp/>
+            <HomeContact/>
         </div>
     )
 };

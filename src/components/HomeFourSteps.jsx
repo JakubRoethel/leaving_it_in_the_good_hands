@@ -9,19 +9,45 @@ import icon4 from '../assets/Icon-4.svg';
 
 function HomeFourSteps() {
     return (
-        <>
-            <DecorationTitle className="a" title={"Wystarczą 4 proste kroki"}/>
-            <div className="four-columns">
-                <FourStepsColumn icon={icon1} title={"Wybierz rzeczy"} content={"ubrania, zabawki, sprzęt i inne"}/>
-                <FourStepsColumn icon={icon2} title={"Spakuj je"} content={"skorzystaj z worków na śmieci"}/>
-                <FourStepsColumn icon={icon3} title={"Zdecyduj komu chcesz pomóc"} content={"wybierz zaufane miejsce"}/>
-                <FourStepsColumn icon={icon4} title={"Zamów kuriera"} content={"kurier przyjedzie w dogodnym terminie"}/>
+        <section
+            className="four-steps"
+        >
+            <DecorationTitle
+            title={"Wystarczą 4 proste kroki"}
+            />
+            <div
+            className="four-columns"
+            >
+                <FourStepsColumn
+                    icon={icon1}
+                    title={"Wybierz rzeczy"}
+                    content={"ubrania, zabawki, sprzęt i inne"}
+                />
+                <FourStepsColumn
+                    icon={icon2}
+                    title={"Spakuj je"}
+                    content={"skorzystaj z worków na śmieci"}
+                />
+                <FourStepsColumn
+                    icon={icon3}
+                    title={"Zdecyduj komu chcesz pomóc"}
+                    content={"wybierz zaufane miejsce"}
+                />
+                <FourStepsColumn
+                    icon={icon4}
+                    title={"Zamów kuriera"}
+                    content={"kurier przyjedzie w dogodnym terminie"}
+                />
             </div>
-            <div className="btn-container">
-                <BigButtons btnText= {"Oddaj rzeczy"} btnDirection={"/logowanie"}/>
+            <div
+                className="btn-container">
+                <BigButtons
+                btnText= {"Oddaj rzeczy"}
+                btnDirection={"/logowanie"}
+                />
             </div>
-        </>
+        </section>
     )
-}
+};
 
-export default HomeFourSteps
+export default HomeFourSteps;

@@ -5,26 +5,53 @@ import organizationsArr from './whoWeHelpDataBase.json';
 function HomeWhoWeHelp() {
     const [organizations, setOrganizations] = useState(organizationsArr.slice(0,3));
     const [description, setDescription] = useState([]);
-    console.log(organizations)
-
+    let mainDescription = "W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.";
     const changeContent = (start,end) => {
         setOrganizations(organizationsArr.slice(start,end))
-    }
-
+    };
     return (
-        <div className="who-we-help-container">
-            <DecorationTitle title={"Komu pomagamy?"}/>
-            <div className="btn-div-container">
-                <div onClick={()=>changeContent(0,3)}  className="btn">Fundacjom</div>
-                <div onClick={()=>changeContent(3,6)} className="btn">Organizacją pozarządowym</div>
-                <div onClick={()=>changeContent(6,9)}  className="btn">Lokalnym zbiórką</div>
-            </div>
-            <div className="organizations-container">
-                <p className="main-description">W naszej bazie znajdziesz listę zweryfikowanych Fundacji, z którymi współpracujemy. Możesz sprawdzić czym się zajmują, komu pomagają i czego potrzebują.</p>
-                <div className="table-container">
-                    {organizations.map((el,i) => {
-                        console.log(el)
-                        return <>
+        <section
+            className="who-we-help"
+            id="who-we-help"
+        >
+            <div
+                className="who-we-help-container"
+            >
+                <DecorationTitle
+                    title={"Komu pomagamy?"}
+                />
+                <div
+                    className="btn-div-container"
+                >
+                    <div
+                        onClick={()=>changeContent(0,3)}   className="btn"
+                    >
+                        Fundacjom
+                    </div>
+                    <div
+                        onClick={()=>changeContent(3,6)}   className="btn"
+                    >
+                        Organizacją pozarządowym
+                    </div>
+                    <div
+                        onClick={()=>changeContent(6,9)}   className="btn"
+                    >
+                        Lokalnym zbiórką
+                    </div>
+                </div>
+                <div
+                    className="organizations-container"
+                >
+                    <p
+                        className="main-description"
+                    >
+                        {mainDescription}
+                    </p>
+                    <div
+                        className="table-container"
+                    >
+                        {organizations.map((el,i) => {
+                            return <>
                             <table>
                                 <thead>
                                     <tr>
@@ -39,11 +66,11 @@ function HomeWhoWeHelp() {
                                 </tbody>
                             </table>
                         </>
-                    })}
+                        })}
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
     )
-}
-
-export default HomeWhoWeHelp
+};
+export default HomeWhoWeHelp;
