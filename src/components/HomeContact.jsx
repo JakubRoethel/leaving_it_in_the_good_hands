@@ -1,5 +1,5 @@
-import React, { useState } from 'react'
-import DecorationTitle from './DecorationTitle'
+import React, { useState } from 'react';
+import DecorationTitle from './DecorationTitle';
 
 function HomeContact() {
     const [contactDetails, setContactDetails] = useState({
@@ -121,7 +121,7 @@ function HomeContact() {
                 className="contact-container"
             >
                 <DecorationTitle
-                    title={"Skontaktuj się z nami"} 
+                    title={"Skontaktuj się z nami"}
                 />
                 <form
                     onSubmit={ e => sendData(e)}

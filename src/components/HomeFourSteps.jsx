@@ -16,7 +16,7 @@ function HomeFourSteps() {
             title={"Wystarczą 4 proste kroki"}
             />
             <div
-            className="four-columns"
+                className="four-columns"
             >
                 <FourStepsColumn
                     icon={icon1}
